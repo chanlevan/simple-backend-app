@@ -65,9 +65,6 @@ Requests to the server are described as below.
 
   Request the sum risk score from all applications. 
 
-## Project structure
-![](./images/projectstructure.png)
-
 ## Unit testing
 
 Current version supports automatic unit testing locally using `nodemon, mocha, expect and supertest`. Once you have install node.js, npm, you can open the project folder on the terminal and run:
