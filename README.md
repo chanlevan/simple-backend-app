@@ -33,9 +33,7 @@ Creating backenddemo ... done
 Creating mongodb ... done
 ```
 
-At this point, the application is ready to use. [Postman](https://www.postman.com/downloads/) is recommended to play around.
-
-Service URL: `http://localhost:3000`
+At this point, the application is ready to use at URL: `http://localhost:3000`
 
 Requests to the server are described as below.
 
@@ -92,5 +90,3 @@ npm run test
 or
 npm run test-watch
 ```
-
-The second command executes the unit testing every time you type it, while the last one monitors code changes and runs the test automatically.
