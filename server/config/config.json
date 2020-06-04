@@ -1,0 +1,42 @@
+{
+    "env": {
+        "test": {
+            "PORT": 3000,
+            "MONGO_URI": "mongodb://chan:chan@localhost:27017/backendapptest"
+        },
+        "dev": {
+            "PORT": 3000,
+            "MONGO_URI": "mongodb://chan:chan@localhost:27017/backendapp"
+        },
+        "prod": {
+            "PORT": 3000,
+            "MONGO_URI": "mongodb://chan:chan@mongodb:27017/backendapp"
+        }
+    },
+    
+    "randomURL": "https://api.random.org/json-rpc/2/invoke",
+
+    "uuidGen": {
+        "jsonrpc": "2.0",
+        "method": "generateUUIDs",
+        "params": {
+            "apiKey": "yourAPIkey",
+            "n": 1
+        },
+        "id": 15998
+    },
+    
+    "gaussGen": {
+        "jsonrpc": "2.0",
+        "method": "generateGaussians",
+        "params": {
+            "apiKey": "yourAPIkey",
+            "n": 1,
+            "mean": 0.0,
+            "standardDeviation": 1.0,
+            "significantDigits": 8
+        },
+        "id": 42
+    },
+    "riskThreshold": 0.0
+}
