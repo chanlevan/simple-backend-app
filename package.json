@@ -6,7 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "args": "3.0.8",
-    "axios": "0.19.2",
+    "axios": "1.6.0",
     "body-parser": "1.18.2",
     "express": "4.16.3",
     "lodash": ">=4.17.19",
